@@ -66,5 +66,5 @@ $ErrorActionPreference = [System.Management.Automation.ActionPreference]::Stop
 	}
 } *>&1 | Write-Console
 
-[System.Environment]::Exit($LastExitCode)
+Exit $LastExitCode
 ```
